@@ -1,18 +1,18 @@
 {
     "name": "newrow/yii2-mailgun",
-    "description": "Mailgun integration for the Yii framework",
+    "description": "Mailgun integration for the Yii2 framework",
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "rackspace", "mailgun", "mail", "email", "mailer"],
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "Mike Peters",
-            "email": "mikejpeters@gmail.com"
+            "name": "Nir Eliyahu",
+            "email": "nir@newrow.com"
         }
     ],
     "require": {
         "yiisoft/yii2": ">=2.0.4",
-        "zeljkobgd81/mailgun-guzzle-6": "*"
+        "zeljkobgd81/mailgun-guzzle-6": "dev-master"
     },
     "autoload": {
         "psr-4": {
