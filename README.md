@@ -28,7 +28,7 @@ Configure it in the application configuration:
 'components' => [
     ...
     'mailer' => [
-        'class' => 'boundstate\mailgun\Mailer',
+        'class' => 'newrow\mailgun\Mailer',
         'key' => 'key-example',
         'domain' => 'mg.example.com',
     ],
